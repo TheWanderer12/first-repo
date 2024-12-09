@@ -1,49 +1,55 @@
 body {
-    background-color: #253334;
+  background-color: #253334;
 }
 .title {
-    color: yellow;
-    font-size: 50px;
-    position: center;
+  color: yellow;
+  font-size: 50px;
+  position: center;
 }
 
 textarea {
-    color: white;
-    background-color: #13131c;
-    width: 70%;
-    height: 500px;
-    border-width: 2px;
-    display: block;
+  color: white;
+  background-color: #13131c;
+  width: 70%;
+  height: 400px;
+  border-width: 2px;
+  display: block;
 }
 
 #mytext {
-    padding: 4px;
-    margin: auto;
-    font-size: 40px;
+  padding: 4px;
+  margin: auto;
+  font-size: 40px;
 }
 
 #buttons {
-    display: flex;
+  display: flex;
 }
 button {
-    background-color: orange;
-    width: 10%;
-    height: 30px;
-    margin: 10px;
-    border-width: 0;
-    border-radius: 5px;
+  display: inline-block;
+  background-color: orange;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-width: 0;
+  border-radius: 5px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 button:hover {
-    background-color: rgb(187, 123, 5);
-    cursor: pointer;
+  background-color: rgb(187, 123, 5);
+  cursor: pointer;
 }
 
 #save-text-file {
-    margin-left: 230px;
-    background-color: #0de72d;
+  padding-bottom: 20px;
+  margin-left: 80px;
+  background-color: #0de72d;
 }
 
 #save-text-file:hover {
-    background-color: green;
+  background-color: green;
 }
